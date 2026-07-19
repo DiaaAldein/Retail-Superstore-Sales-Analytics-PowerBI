@@ -40,10 +40,20 @@ A 14-page storytelling dashboard (~400 visuals) analyzing a retail superstore da
 
 ![Cleaning Disclaimer](PowerBI_Capstone_Screenshots/00-data-cleaning-disclaimer.png)
 
+## Architecture
+
+**Star-schema data model** — fact table + 9 dimensions, a dedicated `_Key Measure` table (35+ DAX measures), and a disconnected `Market Basket` table for association analysis:
+
+![Data Model](PowerBI_Capstone_Screenshots/15-power-bi-data-model.png)
+
+**Power Query data preparation** — all cleaning was performed in Power Query (M) before loading to the model:
+
+![Power Query](PowerBI_Capstone_Screenshots/16-power-query-preparation.png)
+
 ## Data Model
 Star schema: `Fact_Order Details` + 9 dimensions (Date, Product, Category, Sub-Category, Customer, Customer Profile, Orders, City, Country) + dedicated `_Key Measure` table with **35+ DAX measures**.
 
-## Data Cleaning (documented in full disclaimer)
+## Data Cleaning — Power Query (documented in full disclaimer)
 - Removed exact duplicates in `Dim_Orders` and `Fact_Order Details`
 - Repaired corrupted keys (`"13*"→13`, `"546*"→546`, `"#14"→14`) and text-typed dates
 - **Reconstructed missing Sales (194.25) and Profit (23.625) values** from the unit economics of a comparable order (same product, year, ship mode)
