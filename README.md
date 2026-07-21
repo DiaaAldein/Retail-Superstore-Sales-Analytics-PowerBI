@@ -64,4 +64,5 @@ Star schema: `Fact_Order Details` + 9 dimensions (Date, Product, Category, Sub-C
 ## Files
 - `Diaa_Aldein_Alsayed_Ibrahim_Power_Bi_Project.pbix` — the report
 - `Diaa Aldein Power Bi Project Cleaning Summary Notes Disclaimer.pdf` — cleaning decision log
+- `Power BI - Sales Project Data - Un-cleaned.xlsx` — raw un-cleaned source data; cross-reference with the cleaning disclaimer to trace every fix
 - `/PowerBI_Capstone_Screenshots` — one image per page
