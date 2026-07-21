@@ -1,6 +1,6 @@
 # Retail Superstore Sales Analytics — Power BI (CDAP Capstone)
 
-**Author:** Diaa Aldein Alsayed Ibrahim Osman | [LinkedIn](http://www.linkedin.com/in/diaa-ibrahim-31381656)
+**Author:** Diaa Aldein Alsayed Ibrahim Osman | [LinkedIn](https://www.linkedin.com/in/diaa-ibrahim-data)
 **Program:** Certified Data Analyst Professional (CDAP) — Epsilon AI Institute — *Capstone project, highest score in cohort*
 
 ## Overview
